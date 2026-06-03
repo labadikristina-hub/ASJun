@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | AVIP Solutions</title>
+  <link rel="stylesheet" href="css/style.css?v=1.2">
+</head>
+
+<body class="kontakt-stranica">
+
+<div id="nav-placeholder"></div>
+
+<section class="kontakt-heroj">
+  <div class="glow-top-left"></div>
+  <div class="glow-bottom-right"></div>
+
+  <div class="kontakt-mreza">
+
+    <div class="kontakt-tekst">
+      <div style="flex: 0 0 auto;">
+        <span class="nadnaslov">Kontaktirajte nas</span>
+        <h1>Hajde da <br><span class="plavi-tekst">rastemo zajedno.</span></h1>
+        <p class="hero-opis">
+          Imate ideju ili projekat koji zahteva stručan pristup?
+          Naš tim je tu da vam pomogne u svakom koraku digitalizacije.
+        </p>
+      </div>
+
+      <div style="flex: 1 1 auto;"></div>
+
+      <div class="kontakt-kartice-grupa">
+        <div class="kontakt-kartica plava-kartica">
+          <div class="ikona-okvir">📍</div>
+          <div>
+            <h3>NAŠA KANCELARIJA</h3>
+            <p class="tekst-podatak">Mike Bosnića 15, Bački Jarak</p>
+          </div>
+        </div>
+
+        <div class="kontakt-kartica zuta-kartica">
+          <div class="ikona-okvir">✉️</div>
+          <div>
+            <h3>DIREKTAN KONTAKT</h3>
+            <p class="tekst-podatak">office@avip-solutions.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="kontakt-forma">
+      <form action="https://formspree.io/f/IDkojibude" method="POST">
+
+        <div class="forma-red">
+          <div class="polje">
+            <label>Vaše Ime</label>
+            <input type="text" name="ime" placeholder="Ime i prezime" required minlength="2">
+          </div>
+          <div class="polje">
+            <label>Email adresa</label>
+            <input type="email" name="email" placeholder="me@email.com" required>
+          </div>
+        </div>
+
+        <div class="polje" style="margin-bottom: 25px;">
+          <label>Vrsta projekta</label>
+          <select name="kategorija" class="selekt-projekta">
+            <option value="Razvoj Softvera">Razvoj Softvera</option>
+            <option value="Web Dizajn & SEO">Web Dizajn & SEO</option>
+            <option value="Brending & Marketing">Brending & Marketing</option>
+            <option value="Konsultacije">Konsultacije</option>
+            <option value="Ostalo">Ostalo</option>
+          </select>
+        </div>
+
+        <div class="polje" style="margin-bottom: 35px;">
+          <label>Vaša poruka</label>
+          <textarea name="poruka" placeholder="Opišite nam vašu viziju..." rows="5" required minlength="10"></textarea>
+        </div>
+
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button type="submit" class="forma-dugme">Pošalji upit</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+<script src="js/paleta.js"></script>
+<section class="sekcija-razmak"></section>
+
+<div id="footer-placeholder"></div>
+
+<script src="js/skriptaZaNaviFoot.js?v=1.1"></script>
+
+</body>
+</html>

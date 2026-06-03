@@ -1,0 +1,10 @@
+# Dozvoli svim botovima da indeksiraju sajt
+User-agent: *
+Allow: /
+
+# Sakrij sistemske foldere (ako ih prebaciš na server)
+Disallow: /.idea/
+Disallow: /webpack/
+
+# Link ka mapi sajta (dodaj ovo kad napraviš sitemap.xml)
+# Sitemap: https://www.avip-solutions.com/sitemap.xml
